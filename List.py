@@ -40,6 +40,7 @@ class List:
                 i += 1
             elif i == index:
                 nlist =  nlist + [item]
+                nlist =  nlist + [e]
                 i += 1
             elif i > index:
                 nlist =  nlist + [e]

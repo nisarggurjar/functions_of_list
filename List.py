@@ -37,14 +37,14 @@ class List:
         for e in self.li:
             if i < index:
                 nlist =  nlist + [e]
-                i += 1
+                i = i + 1
             elif i == index:
                 nlist =  nlist + [item]
                 nlist =  nlist + [e]
-                i += 1
+                i = i + 1
             elif i > index:
                 nlist =  nlist + [e]
-                i += 1
+                i = i + 1
         self.li = nlist
 
     def Copy(self):
